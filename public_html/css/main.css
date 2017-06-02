@@ -1,0 +1,108 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.tile {
+    width: 20em;
+    height: 10em;
+    background-color: #87CEFA;
+    border-radius: 3%;
+    margin: 0.2%;
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.tile-hidden {
+    transform: rotateY(-180deg);
+}
+
+.tile p {
+    font-family: 'Offside', monospace, sans-serif;
+    font-size: 5em;
+    color: #87CEFA;
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.tile:hover {
+    cursor: pointer;
+}
+
+.ticked, .ticked p {
+    background-color: #000;
+    color: #000;
+}
+
+.flipper {
+    transform: rotateY(0deg);
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.flipper-back {
+    transition: 1s;
+    transform-style: preserve-3d;
+    background-color: #87CEFA;
+    color: #87CEFA;
+}
+
+.flipper.one{
+    background-color: #20B2AA;
+}
+
+.flipper.two{
+    background-color: #ff6a6a;
+}
+
+.flipper.three{
+    background-color: #ffd700;
+}
+
+.flipper.four{
+    background-color: #ffccae;
+}
+
+.flipper.five{
+    background-color: #8b7e66;
+}
+
+.flipper.six{
+    background-color: #465af2;
+}
+
+.flipper.seven{
+    background-color: #b3c6c8;
+}
+
+.flipper.eight{
+    background-color: #8836b6;
+}
+
+.flipper p{
+    color: #fff;
+}
+
+.flipper:not(:focus):hover, .flipper p:not(:focus):hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
